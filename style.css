@@ -1,0 +1,69 @@
+
+.logo{
+padding: 10px;
+justify-content: end;
+}
+.card{
+    size: 200px;
+}
+.Menu{
+    display: grid;
+grid-template-columns: 400px 400px 400px;
+justify-items: center;
+ row-gap: 5px;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    background-color: rgb(195, 233, 221);
+    color: rgba(2, 11, 8, 0.739);
+    }
+#box{
+    float:left;
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+}
+.img{
+    justify-content: left;
+    border-radius: 5px;
+}
+p{
+    justify-content: left;
+}
+#logo{
+        margin-left: 475px; 
+}
+footer{
+    justify-content: center;
+    border: 2px;
+    border-color: antiquewhite;
+}
+/* @media screen and (max-width:700px ) {
+    footer{
+
+    }
+    main{
+
+    }
+} */
+.container{
+    width: 100%;
+    }
+    .container img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .acciologo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
